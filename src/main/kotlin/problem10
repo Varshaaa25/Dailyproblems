@@ -1,0 +1,13 @@
+fun main()
+{
+    var array= arrayOf(2,4,8,9,10)
+    var max=array[0]
+    for(i in 0..array.size-1)
+    {
+        if(array[i]>max)
+        {
+            max=array[i]
+        }
+    }
+    println(max)
+}
