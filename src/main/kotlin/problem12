@@ -1,0 +1,14 @@
+fun main()
+{
+    var a=readLine()?.toString()!!
+    for(i in 1..4)
+    {
+        for(j in 1..i)
+        {
+            print(a)
+        }
+        println()
+    }
+
+
+}
